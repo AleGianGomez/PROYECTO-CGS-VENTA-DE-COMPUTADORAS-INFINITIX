@@ -38,7 +38,7 @@ namespace Proyecto_CGS
             bool isLogin = usuarioController.Login(usuario, password);
             if (isLogin == true)
             {
-                FrmMenuPrincipal frmMenuPrincipal = new FrmMenuPrincipal();
+                FrmMenuPrincipal frmMenuPrincipal = new FrmMenuPrincipal(usuario);
                 frmMenuPrincipal.Show();
             }
             else 

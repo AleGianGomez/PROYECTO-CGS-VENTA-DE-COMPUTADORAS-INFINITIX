@@ -62,6 +62,11 @@
     <Compile Include="Models\Equipo.cs" />
     <Compile Include="Models\HistorialVenta.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,13 +86,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="Vistas\FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -102,6 +106,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Images\spiderusuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\png-transparent-miles-morales-ultimate-spider-man-ultimate-collection-spider-verse-marvel-cinematic-universe-spider-man-antler-comics-heroes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\1687840974853.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\TzOh6onvXG.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

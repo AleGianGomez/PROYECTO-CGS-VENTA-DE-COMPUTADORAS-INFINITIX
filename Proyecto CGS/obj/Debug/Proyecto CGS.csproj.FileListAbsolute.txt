@@ -14,3 +14,4 @@ D:\CODIGO DEL PROYECTO CGS\Proyecto CGS\bin\Debug\EntityFramework.SqlServer.dll
 D:\CODIGO DEL PROYECTO CGS\Proyecto CGS\bin\Debug\EntityFramework.xml
 D:\CODIGO DEL PROYECTO CGS\Proyecto CGS\bin\Debug\EntityFramework.SqlServer.xml
 D:\CODIGO DEL PROYECTO CGS\Proyecto CGS\obj\Debug\Proyecto CGS.csproj.CopyComplete
+D:\CODIGO DEL PROYECTO CGS\Proyecto CGS\obj\Debug\Proyecto_CGS.Vistas.FrmMenuPrincipal.resources
