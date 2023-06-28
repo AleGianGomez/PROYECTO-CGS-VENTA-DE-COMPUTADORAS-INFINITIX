@@ -110,13 +110,7 @@
     <None Include="Images\spiderusuario.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\png-transparent-miles-morales-ultimate-spider-man-ultimate-collection-spider-verse-marvel-cinematic-universe-spider-man-antler-comics-heroes.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Images\1687840974853.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\TzOh6onvXG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

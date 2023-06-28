@@ -1,0 +1,17 @@
+D:\LOGIN\Proyecto CGS\bin\Debug\Proyecto CGS.exe.config
+D:\LOGIN\Proyecto CGS\bin\Debug\Proyecto CGS.exe
+D:\LOGIN\Proyecto CGS\bin\Debug\Proyecto CGS.pdb
+D:\LOGIN\Proyecto CGS\bin\Debug\EntityFramework.dll
+D:\LOGIN\Proyecto CGS\bin\Debug\EntityFramework.SqlServer.dll
+D:\LOGIN\Proyecto CGS\bin\Debug\EntityFramework.xml
+D:\LOGIN\Proyecto CGS\bin\Debug\EntityFramework.SqlServer.xml
+D:\LOGIN\Proyecto CGS\obj\Debug\Login CGS.csproj.AssemblyReference.cache
+D:\LOGIN\Proyecto CGS\obj\Debug\Login CGS.csproj.SuggestedBindingRedirects.cache
+D:\LOGIN\Proyecto CGS\obj\Debug\Proyecto_CGS.FrmLogin.resources
+D:\LOGIN\Proyecto CGS\obj\Debug\Proyecto_CGS.Properties.Resources.resources
+D:\LOGIN\Proyecto CGS\obj\Debug\Proyecto_CGS.Vistas.FrmMenuPrincipal.resources
+D:\LOGIN\Proyecto CGS\obj\Debug\Login CGS.csproj.GenerateResource.cache
+D:\LOGIN\Proyecto CGS\obj\Debug\Login CGS.csproj.CoreCompileInputs.cache
+D:\LOGIN\Proyecto CGS\obj\Debug\Login CGS.csproj.CopyComplete
+D:\LOGIN\Proyecto CGS\obj\Debug\Proyecto CGS.exe
+D:\LOGIN\Proyecto CGS\obj\Debug\Proyecto CGS.pdb
