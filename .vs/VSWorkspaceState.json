@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Proyecto CGS",
-    "\\Proyecto CGS\\Models",
-    "\\Proyecto CGS\\Vistas"
+    "\\LogIn CGS"
   ],
-  "SelectedNode": "\\Proyecto CGS\\Models\\Cliente.cs",
+  "SelectedNode": "\\LogIn CGS\\LogIn CGS.sln",
   "PreviewInSolutionExplorer": false
 }

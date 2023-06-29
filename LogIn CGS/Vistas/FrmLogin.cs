@@ -49,5 +49,21 @@ namespace Proyecto_CGS
                     MessageBoxIcon.Error);
             }
         }
+///IMPLEMENTACIONES PARA MEJORAR EL LOGIN
+        private void txtUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                txtPassword.Focus();
+            }
+        }
+
+        private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btnLogin.Focus();
+            }
+        }
     }
 }

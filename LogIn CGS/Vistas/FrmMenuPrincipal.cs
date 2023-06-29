@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_CGS.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,5 +24,11 @@ namespace Proyecto_CGS.Vistas
         {
             lblUsuario.Text = _usuario;
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+          this.Close();
+        }
+
     }
 }

@@ -71,7 +71,8 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(166, 23);
-            this.txtPassword.TabIndex = 14;
+            this.txtPassword.TabIndex = 2;
+            this.txtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPassword_KeyPress);
             // 
             // label2
             // 
@@ -88,7 +89,8 @@
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(166, 23);
-            this.txtUsuario.TabIndex = 11;
+            this.txtUsuario.TabIndex = 1;
+            this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUsuario_KeyPress);
             // 
             // btnLogin
             // 
@@ -97,7 +99,7 @@
             this.btnLogin.Location = new System.Drawing.Point(259, 314);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 25);
-            this.btnLogin.TabIndex = 13;
+            this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "INGRESAR";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
