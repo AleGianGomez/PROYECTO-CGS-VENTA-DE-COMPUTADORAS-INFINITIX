@@ -19,7 +19,6 @@ namespace Proyecto_CGS.Vistas
         {
             InitializeComponent();
             _usuario = usuario;
-            _usuario = usuario;
         }
         UsuarioController _usuariocontrol = new UsuarioController();
         bool _Nuevo = true;
@@ -81,7 +80,7 @@ namespace Proyecto_CGS.Vistas
             _Nuevo = false;
             groupBox_Usuario.Enabled = true;
         }
-        //boton Busacr
+        //boton Buscar
         private void btn_buscar_Click(object sender, EventArgs e)
         {
             string parametro = txt_buscar.Text;
