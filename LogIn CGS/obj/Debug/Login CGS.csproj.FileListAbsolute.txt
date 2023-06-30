@@ -33,3 +33,4 @@ D:\LOGIN\LogIn CGS\obj\Debug\Login CGS.csproj.CopyComplete
 D:\LOGIN\LogIn CGS\obj\Debug\Proyecto CGS.exe
 D:\LOGIN\LogIn CGS\obj\Debug\Proyecto CGS.pdb
 D:\LOGIN\LogIn CGS\obj\Debug\Proyecto_CGS.Vistas.FrmGestionarUsuario.resources
+D:\LOGIN\LogIn CGS\obj\Debug\Proyecto_CGS.FrmGestionarEquipo.resources

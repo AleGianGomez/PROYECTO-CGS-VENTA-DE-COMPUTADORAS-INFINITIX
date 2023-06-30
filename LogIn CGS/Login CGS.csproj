@@ -56,7 +56,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\ModelVentaDeComputadoras.cs" />
+    <Compile Include="Controladores\EquipoController.cs" />
     <Compile Include="Controladores\UsuarioController.cs" />
+    <Compile Include="Vistas\FrmGestionarEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FrmGestionarEquipo.Designer.cs">
+      <DependentUpon>FrmGestionarEquipo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Devolucion.cs" />
     <Compile Include="Models\Equipo.cs" />
@@ -87,6 +94,9 @@
     </Compile>
     <Compile Include="Vistas\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Vistas\FrmGestionarEquipo.resx">
+      <DependentUpon>FrmGestionarEquipo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FrmGestionarUsuario.resx">
       <DependentUpon>FrmGestionarUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +112,7 @@
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Proyecto_CGS.Models.Equipo.datasource" />
     <None Include="Properties\DataSources\Proyecto_CGS.Models.Usuario.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

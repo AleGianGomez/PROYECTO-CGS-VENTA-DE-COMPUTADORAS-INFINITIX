@@ -61,6 +61,7 @@
             this.btnGestionarEquipos.TabIndex = 1;
             this.btnGestionarEquipos.Text = "GESTIONAR EQUIPOS";
             this.btnGestionarEquipos.UseVisualStyleBackColor = false;
+            this.btnGestionarEquipos.Click += new System.EventHandler(this.btnGestionarEquipos_Click);
             // 
             // btnReportes
             // 

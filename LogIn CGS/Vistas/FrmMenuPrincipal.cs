@@ -37,5 +37,12 @@ namespace Proyecto_CGS.Vistas
             frmGestionarUsuario.Show(Owner);
             
         }
+
+        private void btnGestionarEquipos_Click(object sender, EventArgs e)
+        {
+            FrmGestionarEquipo frmGestionarEquipos = new FrmGestionarEquipo(_usuario);  
+            frmGestionarEquipos.WindowState = FormWindowState.Maximized;
+            frmGestionarEquipos.Show(Owner);
+        }
     }
 }
