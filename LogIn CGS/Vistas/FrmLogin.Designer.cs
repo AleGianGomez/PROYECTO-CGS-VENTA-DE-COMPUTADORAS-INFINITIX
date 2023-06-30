@@ -126,6 +126,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.ErrorImage = null;
             this.pictureBox2.Image = global::Proyecto_CGS.Properties.Resources._1687840974853;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";

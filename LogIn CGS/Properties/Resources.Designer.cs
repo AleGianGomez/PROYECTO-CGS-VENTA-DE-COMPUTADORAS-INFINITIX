@@ -73,6 +73,16 @@ namespace Proyecto_CGS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _16878409748531 {
+            get {
+                object obj = ResourceManager.GetObject("16878409748531", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap spiderusuario {
             get {
                 object obj = ResourceManager.GetObject("spiderusuario", resourceCulture);
