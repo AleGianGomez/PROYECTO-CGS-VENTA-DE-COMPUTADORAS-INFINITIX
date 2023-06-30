@@ -30,5 +30,12 @@ namespace Proyecto_CGS.Vistas
           this.Close();
         }
 
+        private void btnGestionarUsuario_Click(object sender, EventArgs e)
+        {
+            FrmGestionarUsuario frmGestionarUsuario = new FrmGestionarUsuario(_usuario);
+            frmGestionarUsuario.WindowState = FormWindowState.Maximized;
+            frmGestionarUsuario.Show(Owner);
+            
+        }
     }
 }
